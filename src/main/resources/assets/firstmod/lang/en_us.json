@@ -2,6 +2,8 @@
   "item.firstmod.rainbow_sword": "Rainbow Sword",
   "item.firstmod.rainbow_ingot": "Rainbow Ingot",
 
+  "block.firstmod.rainbow_block": "Rainbow Block",
 
-  "block.firstmod.rainbow_block": "Rainbow Block"
+  "itemGroup.firstmod.rainbow_misc": "Rainbow Misc",
+  "itemGroup.firstmod.rainbow_tools": "Rainbow Tools"
 }
