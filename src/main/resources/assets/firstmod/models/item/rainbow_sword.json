@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firstmod:item/first_item"
+    "layer0": "firstmod:item/rainbow_sword"
   }
 }

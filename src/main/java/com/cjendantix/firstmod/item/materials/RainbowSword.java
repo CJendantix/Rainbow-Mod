@@ -3,7 +3,7 @@ package com.cjendantix.firstmod.item.materials;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class FirstMaterial implements ToolMaterial {
+public class RainbowSword implements ToolMaterial {
     @Override
     public int getDurability() {
         return 1000;

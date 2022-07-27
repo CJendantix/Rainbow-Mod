@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:rainbow_ingot"
+    },
+    {
+      "item": "firstmod:rainbow_ingot"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "firstmod:rainbow_sword",
+    "count": 1
+  }
+}

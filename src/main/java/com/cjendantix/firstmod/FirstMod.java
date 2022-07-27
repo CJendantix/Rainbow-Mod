@@ -1,5 +1,6 @@
 package com.cjendantix.firstmod;
 
+import com.cjendantix.firstmod.block.ModBlocks;
 import com.cjendantix.firstmod.item.RegisterItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		RegisterItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
