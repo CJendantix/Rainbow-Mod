@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ff",
+    "f/",
+    " /"
+  ],
+  "key": {
+    "f": {
+      "item": "firstmod:rainbow_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "firstmod:rainbow_axe",
+    "count": 1
+  }
+}

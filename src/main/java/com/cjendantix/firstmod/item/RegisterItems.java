@@ -13,6 +13,8 @@ public class RegisterItems {
 
     public static final Item [registry name] = registerItem("[name]", new Item(new FabricItemSettings().group(ItemGroup.[group]).[optional more settings])));
      */
+    public static final Item RAINBOW_AXE = registerItem("rainbow_axe",
+            new RainbowAxe(new com.cjendantix.firstmod.item.materials.RainbowAxe(), new FabricItemSettings().group(ModItemGroup.RAINBOWTOOLS)));
     public static final Item RAINBOW_SWORD = registerItem("rainbow_sword",
             new com.cjendantix.firstmod.item.RainbowSword(new RainbowSword(), new FabricItemSettings().group(ModItemGroup.RAINBOWTOOLS)));
 
@@ -25,6 +27,10 @@ public class RegisterItems {
 
     public static void registerModItems() {
         FirstMod.LOGGER.info("Registering Mod Items For " + FirstMod.MOD_ID);
+    }
+
+    public static Item getRainbowIngot() {
+        return RAINBOW_INGOT;
     }
 
 }
