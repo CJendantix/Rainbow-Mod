@@ -14,8 +14,14 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static Block RAINBOW_BLOCK = registerBlock("rainbow_block",
-            new RainbowBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.RAINBOWMISC);
+    public static Block HEALTH_RAINBOW_ORE = registerBlock("health_rainbow_ore",
+            new HealthRainbowOre(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.RAINBOWMISC);
+
+    public static Block DAMAGE_RAINBOW_ORE = registerBlock("damage_rainbow_ore",
+            new DamageRainbowOre(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.RAINBOWMISC);
+
+    public static Block SPEED_RAINBOW_ORE = registerBlock("speed_rainbow_ore",
+            new SpeedRainbowOre(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.RAINBOWMISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

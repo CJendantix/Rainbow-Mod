@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:health_rainbow_ore",
+    "firstmod:damage_rainbow_ore",
+    "firstmod:speed_rainbow_ore"
+  ]
+}

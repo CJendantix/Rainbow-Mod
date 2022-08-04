@@ -12,7 +12,7 @@ public class RainbowAxe implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0;
+        return 10000;
     }
 
     @Override
@@ -22,7 +22,7 @@ public class RainbowAxe implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 0;
+        return 5;
     }
 
     @Override

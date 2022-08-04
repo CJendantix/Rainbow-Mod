@@ -2,6 +2,8 @@ package com.cjendantix.firstmod;
 
 import com.cjendantix.firstmod.block.ModBlocks;
 import com.cjendantix.firstmod.item.RegisterItems;
+import com.cjendantix.firstmod.world.feature.ModConfiguredFeatures;
+import com.cjendantix.firstmod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +19,7 @@ public class FirstMod implements ModInitializer {
 	public void onInitialize() {
 		RegisterItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModConfiguredFeatures.registerConfiguredFeatures();
+		ModWorldGen.generateModWorldGen();
 	}
 }

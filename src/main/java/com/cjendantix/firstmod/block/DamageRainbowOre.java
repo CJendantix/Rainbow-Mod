@@ -2,9 +2,9 @@ package com.cjendantix.firstmod.block;
 
 import net.minecraft.block.Block;
 
-public class RainbowBlock extends Block {
+public class DamageRainbowOre extends Block {
 
-    public RainbowBlock(Settings settings) {
+    public DamageRainbowOre(Settings settings) {
         super(settings);
     }
 }
